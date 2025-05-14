@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For My Crush 💘</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+   <audio id="bg-music" autoplay loop>
+        <source src="your-music.mp3" type="audio/mpeg">
+        
+   </audio>
+   <p style="text-align:center; color:white; font-size:0.9rem; margin-top:10px;">🎶 Tap anywhere to feel the vibe 💖</p>
+
+  <div class="heart-bg">
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+  </div>
+
+  <!-- Profile Section -->
+  <div class="profile">
+    <img src="profile.jpg" alt="Her Cute Face 😍" class="profile-pic" />
+    <div class="profile-info">
+      <h2>✨ Rashmi ✨</h2>
+      <p>Sweetest Actor💼❤️</p>
+    </div>
+  </div>
+
+  <!-- Some extra text -->
+  <div class="content">
+    <h1>Hey Darling...💕</h1>
+    <p>This is just for you 🌸</p>
+  </div>
+  <!-- Topic Section -->
+<!-- Combined Love Message + Question Section -->
+<div class="question-box">
+  <h2>💌 A Little Something I Wanna Say...</h2>
+  <p class="love-text">
+    Oh my stars, let's talk about Rashmika Mandanna—the dazzling queen of hearts and the ultimate sunshine in the Indian film industry! 🌟 Born on April 5, 1996, in the serene town of Virajpet, Karnataka, Rashmika's journey from a small-town girl to a pan-Indian sensation is nothing short of a cinematic masterpiece. 🎬
+
+    She first caught our eyes in 2014 when she won the Clean & Clear Fresh Face contest, and from there, she skyrocketed into the world of modeling and acting. Her debut in the Kannada film Kirik Party (2016) was a blockbuster hit, and she hasn't looked back since. With stellar performances in films like Geetha Govindam, Dear Comrade, and the electrifying Pushpa: The Rise, Rashmika has proven time and again that she's not just a pretty face but a powerhouse of talent..
+    <br>
+    You Are the best Actress
+  </p>
+
+  <h2 class="sparkle-hover">💭 Can I be Yours...?</h2>
+  <div class="btn-group">
+    <a href="https://wa.me/918591835231?text=Yes%20you%20can%20be%20mine%20💖" target="_blank" class="btn yes">Yes 💞</a>
+    <a href="https://wa.me/918591835231?text=Sorry%20I%20don%27t%20feel%20the%20same%20😔" target="_blank" class="btn no">No 💔</a>
+  </div>
+</div>
+
+  
+
+  <script>
+    // Unlock music on first user interaction (touch/click)
+    document.addEventListener('click', function () {
+      const audio = document.getElementById('bg-music');
+      if (audio.paused) {
+        audio.play().catch(e => console.log("Autoplay blocked:", e));
+      }
+    }, { once: true });
+  </script>
+  
+</body>
+</html>
